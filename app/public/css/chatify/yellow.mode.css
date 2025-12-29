@@ -1,0 +1,109 @@
+/* 🌟 Tema Kuning untuk Chatify */
+
+:root {
+    --chatify-primary: #fbc02d !important; /* Kuning utama */
+    --chatify-primary-dark: #f9a825 !important; /* Kuning gelap */
+    --chatify-secondary: #fff8e1 !important; /* Latar lembut */
+    --chatify-accent: #ffeb3b !important;
+    --chatify-text-dark: #333 !important;
+    --chatify-text-light: #fff !important;
+}
+
+/* Header */
+.m-header,
+.m-header-messaging {
+    background: var(--chatify-primary) !important;
+    color: var(--chatify-text-light) !important;
+}
+
+.messenger-headTitle {
+    color: var(--chatify-text-light) !important;
+    font-weight: 700;
+}
+
+/* Tombol ikon di header */
+.m-header a i,
+.m-header-right a i {
+    color: var(--chatify-text-light) !important;
+}
+
+/* Sidebar kiri */
+.messenger-listView {
+    background: var(--chatify-secondary) !important;
+    border-right: 2px solid var(--chatify-primary);
+}
+
+/* List kontak */
+.listOfContacts .messenger-list-item {
+    background: #fff;
+    border: 1px solid #fdd835;
+    margin-bottom: 5px;
+    transition: all 0.2s;
+}
+
+.listOfContacts .messenger-list-item:hover {
+    background: #fffde7 !important;
+    transform: translateY(-2px);
+}
+
+/* Chat area */
+.messenger-messagingView {
+    background-color: #fffdf2 !important;
+}
+
+/* Pesan keluar (dari pengguna) */
+.message-card.sent {
+    background-color: var(--chatify-primary-dark) !important;
+    color: var(--chatify-text-light) !important;
+}
+
+/* Pesan masuk */
+.message-card.received {
+    background-color: #fff9c4 !important;
+    color: var(--chatify-text-dark) !important;
+}
+
+/* Input pesan */
+.messenger-sendCard {
+    background: #fff !important;
+    border-top: 2px solid var(--chatify-primary);
+}
+
+.messenger-sendCard textarea {
+    border: 1px solid #fbc02d !important;
+    background-color: #fffef6 !important;
+}
+
+.messenger-sendCard button {
+    background-color: var(--chatify-primary) !important;
+    color: var(--chatify-text-light) !important;
+    border: none !important;
+    transition: 0.3s;
+}
+
+.messenger-sendCard button:hover {
+    background-color: var(--chatify-primary-dark) !important;
+}
+
+/* Info panel kanan */
+.messenger-infoView {
+    background: #fff8e1 !important;
+    color: var(--chatify-text-dark) !important;
+}
+
+/* Status koneksi */
+.internet-connection {
+    background: var(--chatify-primary-dark) !important;
+    color: var(--chatify-text-light) !important;
+}
+
+/* Typing indicator */
+.typing-dots .dot {
+    background: var(--chatify-primary-dark) !important;
+}
+
+/* Scrollbar halus */
+.app-scroll::-webkit-scrollbar-thumb {
+    background-color: #fbc02d;
+    border-radius: 8px;
+}
